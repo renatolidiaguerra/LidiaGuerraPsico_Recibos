@@ -14,27 +14,27 @@
 
 	<a 	id="botao_a"
 		href="ajuCadastro.php">
-		<i class="material-icons w3-xxlarge w3-cell-middle w3-left">help</i>
+		<i class="material-icons w3-xxlarge w3-cell-middle w3-left">person_add</i>
 		
 		Como cadastrar um cliente
 	</a>
 	
 	<a 	id="botao_b"
 		href="ajuRecibo.php">
-		<i class="material-icons w3-xxlarge w3-cell-middle w3-left">help</i>
+		<i class="material-icons w3-xxlarge w3-cell-middle w3-left">content_copy</i>
 		
 		Como emitir um Recibo
 	</a>
 	
 	<a 	id="botao_c"
 		href="ajuPaleta.php">
-		<i class="material-icons w3-xxlarge w3-cell-middle w3-left">edit</i>
+		<i class="material-icons w3-xxlarge w3-cell-middle w3-left">palette</i>
 		Escolher paleta de cores
 	</a>	
 	
 	<a 	id="botao_d"
 		href="usu_logout.php">
-		<i class="material-icons w3-xxlarge w3-cell-middle w3-left">add</i>
+		<i class="material-icons w3-xxlarge w3-cell-middle w3-left">backspace</i>
 		Sair do sistema
 	</a>
 	
