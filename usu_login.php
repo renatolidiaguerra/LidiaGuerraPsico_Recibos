@@ -57,9 +57,23 @@ if (existe_sessao()) {
 	<?php 
 	} ?>
 	
-	<input type="text"		name="input_login" 	autocomplete="off"	value="<?php echo $login; ?>"	placeholder="E-mail para login..."		/> 	
+	<input  
+					type="text"		
+					name="input_login" 	
+					autocomplete="on"	
+					value="<?php echo $login; ?>"	
+					placeholder="E-mail para login..."		/> 	
 	<!--input type="password"	name="input_senha" 	autocomplete="off"									placeholder="Senha (minimo 4 numeros)..."			/--> 	
-	<input type="number" 	name="input_senha"  placeholder="Senha..."	pattern="[0-9]" />
+	<input 
+					type="password" 	
+					name="input_senha"
+					autocomplete="current-password"  
+					placeholder="Senha (numerica, min 4 numeros)..."	
+					inputmode="numeric" 
+					minlength="4"
+       		maxlength="8" 
+					size="8" />
+
 	<button	type="submit" 
 			id="botao_ok">
 			
