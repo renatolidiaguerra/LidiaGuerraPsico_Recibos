@@ -1,0 +1,47 @@
+@import url("i_paleta.css");
+
+/* <meta name="viewport" content="minimal-ui, width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"> */
+
+/* -------------- */
+/* MENU PRINCIPAL */
+/* -------------- */
+
+//*
+body {
+	margin: 0;
+}
+
+ul {
+	font-family: "Arial";
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 50%;
+	background-color: lightgreen;
+	height: 100%;
+	overflow: auto;
+	font-size: 20px;
+}
+li a {
+	display: block;
+	color: pink;
+	padding: 20px 16px;
+	text-decoration: none;
+}
+
+li a.active {
+	background-color: black;
+	color: white;
+}
+
+li a:hover:not(.active) {
+	background-color: darkgreen;
+	color: lightgreen;
+}
+**/
+
+/* ------------------------- */
+/* TABELA CONSULTA/ALTERAÇÃO */
+/* ------------------------- */
+
+

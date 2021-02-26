@@ -1,0 +1,144 @@
+
+	#botao_a:hover, 
+	#botao_b:hover, 
+	#botao_c:hover, 
+	#botao_d:hover, 
+	#botao_e:hover, 
+	#botao_ok:hover, 
+	#botao_voltar:hover {
+		background-color: #004d33;
+		color: #ffffff;
+	}
+
+	#botao_a {
+		background-color: #633517;
+		color: #ffffff;
+	}
+
+	#botao_b {
+		background-color: #a6001a;
+		color: #ffffff;
+	}
+
+	#botao_c {
+		background-color: #e06000;
+		color: #ffffff;
+	}
+
+	#botao_d {
+		background-color: #ee9600;
+		color: #ffffff;
+	}
+
+	#botao_e {
+		background-color: #ffab00;
+		color: #ffffff;
+	}
+
+	#botao_ok {
+		background-color: #004d33;
+		color: #ffffff;
+	}
+
+	#botao_voltar {
+		background-color: #00477e;
+		color: #ffffff;
+	}
+	
+	#header_pagina {
+		background-color: #00477e;
+		color: #ffffff;
+		text-align: left;
+		width: 100%;
+		display: inline-block;
+		text-decoration: none;
+		border-bottom: 2px solid #004d33;
+	}
+	
+	#header_sucesso {
+		background-color: #004d33;
+		color: #ffffff;
+	}	
+	
+	table tr:nth-child(even) {
+		background-color: #a6001a;
+		color: #ffffff;
+	}
+	}
+	table tr:nth-child(odd) {
+		background-color: #ee9600;
+		color: #ffffff;
+	}
+	table th {
+		background-color: #004d33;
+		color: #ffffff;
+	}
+	table tr:hover	{
+		background-color: #004d33;
+		color: #ffffff;
+	}
+	
+	
+	input[type=text], 
+	input[type=email], 
+	input[type=date], 
+	input[type=password],
+	input[type=number],
+	textarea,
+	select {
+		width: 100%;
+		padding: 12px 20px;
+		margin: 8px 0;
+		display: inline-block;
+		border: 1px solid #004d33;
+		border-radius: 4px;
+		box-sizing: border-box;
+		font-family: Arial;
+		font-size: 20px;
+	}
+	
+	table, th, td {
+		border: 1px solid Black;
+		border-collapse: collapse;
+	}
+
+	table {
+		width:100%;
+	}
+	th, td {
+		padding: 15px;
+		text-align: left;
+	}
+
+	/* ------------------------------- */
+	/* CAMPOS INPUT INCLUSAO-ALTERAÇÃO */
+	/* ------------------------------- */
+	input:focus {
+		background-color: WhiteSmoke;
+	}
+
+	input:-moz-read-only {
+		background-color: WhiteSmoke;
+		color: Gray;
+	}
+	input:read-only {
+		background-color: WhiteSmoke;
+		color: Gray;
+	}
+
+	h1 {
+		font-size: 1.5em;
+		padding-left: 2em;
+	}
+
+	#botao_a, #botao_b, #botao_c, #botao_d, #botao_e, #botao_ok, #botao_voltar {
+		padding: 0.7em;
+		text-align: center;
+		font-size: 1.5em;
+		width: 100%;
+		display: inline-block;
+		text-decoration: none;
+	}
+	
+	
+	

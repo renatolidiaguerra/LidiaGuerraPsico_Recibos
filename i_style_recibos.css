@@ -1,0 +1,102 @@
+/* -------------- */
+/* MENU PRINCIPAL */
+/* -------------- */
+body {
+  margin: 0;
+}
+
+ul {
+  font-family: "Arial";
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 50%;
+  background-color: lightgreen;
+ /* position: fixed; */
+  height: 100%;
+  overflow: auto;
+  font-size: 20px;
+}
+li a {
+  display: block;
+  color: black;
+  padding: 20px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: black;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: darkgreen;
+  color: lightgreen;
+}
+
+img {
+	width:30px;
+	height:30px;
+	border:0;
+	padding-right:10%;
+	float:left;
+}
+
+/* ------------------------- */
+/* TABELA CONSULTA/ALTERAÇÃO */
+/* ------------------------- */
+
+table {
+  width:100%;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 15px;
+  text-align: left;
+}
+table tr:nth-child(even) {
+  background-color: lightgreen;
+}
+table tr:nth-child(odd) {
+ background-color: white;
+}
+table th {
+  background-color: green;
+  color: white;
+}
+
+/* ------------------------------- */
+/* CAMPOS INPUT INCLUSAO-ALTERAÇÃO */
+/* ------------------------------- */
+input[type=text], input[type=email], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family: "Arial";
+  font-size: 20px;
+}
+input[type=text]:focus {
+  background-color: lightgreen;
+}
+/* ------------------------- */
+/* BOTAO OK/ENVIAR/CONFIRMAR */
+/* ------------------------- */
+input[type=submit] {
+  width: 100%;
+  background-color: green;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: "Arial";
+  font-size: 20px;
+}
