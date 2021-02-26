@@ -44,6 +44,8 @@ if (isset($_GET['retorno'])) {
 		<br>
 		<a  id="botao_ok"
 			href='usu_logout_f.php'>
+
+			<i class="material-icons w3-xxlarge w3-cell-middle w3-left">warning</i>
 			Logoff
 		</a>
 	
