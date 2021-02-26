@@ -45,7 +45,7 @@ $aux_conteudo = "Paciente iniciou acompanhamento psicoterapêutico em  seguindo 
 			Data da Emissão
 			<input type="date" name="input_data_envio"		required  		placeholder="Data de Emissão">
 			CIDX
-			<input type="text" name="input_cidx"			required  		placeholder="CIDX">
+			<input type="text" name="input_cidx"			required  		placeholder="Preencha o CIDX">
 			Texto do Relatório
 			<textarea 	name="input_conteudo"		required		value=""
 																			placeholder="Conteúdo do Relatório"><?php echo $aux_conteudo; ?></textarea>

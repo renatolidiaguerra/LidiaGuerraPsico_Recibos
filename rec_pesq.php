@@ -29,7 +29,7 @@
 
 	<button type="submit" 
 			id="botao_ok">
-		<i class="material-icons w3-xxlarge w3-cell-middle w3-left">add</i>
+		<i class="material-icons w3-xxlarge w3-cell-middle w3-left">search</i>
 		Pesquisar
 	</button>
 

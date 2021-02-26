@@ -50,7 +50,7 @@ $dado = $result->fetch_array();
 			<a 	id="botao_b"
 				href="rec_excl_f.php?id=<?php echo $getid;?>">
 				<i class="material-icons w3-xxlarge w3-cell-middle w3-left">delete</i>
-				Excluir recibo
+				Confirma Exclusão?
 			</a>
 
 			<a 	id="botao_voltar"
