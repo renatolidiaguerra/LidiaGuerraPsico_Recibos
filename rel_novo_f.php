@@ -13,13 +13,16 @@ $cod_user = $_SESSION['usuario'];
 include("i_conecta_relatorios.php");
 include("i_crypto.php");
 
+//*  concatena texto com variavel preenchida
 $aux_cidx = 'CIDX nº: ' . $cidx;
+//*  troca todo fixo CIDX por CIDX+variavelpreenchida dentro de 'conteudo'
 $aux_conteudo = str_replace('CIDX',$aux_cidx, $conteudo);
-
+//* volta aux_conteudo para conteudo, já finalizado
 $conteudo = $aux_conteudo;
+//* 
 
 $sql = "INSERT INTO $tb_relatorios (cod_user, cpf_titular, data_envio, cidx, conteudo)
-					VALUES ('$cod_user','$cpf_titular','$data_envio','$cidx','$conteudo')";
+					VALUES (´$cod_user`,´$cpf_titular`,´$data_envio`,´$cidx`,´$conteudo`)";
 
 //* executa e verifica resultado
 if ($conn_rel->query($sql) === TRUE) 
