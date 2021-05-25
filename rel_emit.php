@@ -91,7 +91,7 @@ QRcode::png($qrcode, $fileQRCode , QR_ECLEVEL_L, 3);
 	}
 	
 	#corpo {
-		height: 955vmin;
+		height: 55vmin;
 		padding-top: 	 5%; 
 		padding-bottom:  0%; 
 		padding-left: 	 5%; 
