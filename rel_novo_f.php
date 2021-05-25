@@ -17,12 +17,13 @@ include("i_crypto.php");
 $aux_cidx = 'CIDX nº: ' . $cidx;
 //*  troca todo fixo CIDX por CIDX+variavelpreenchida dentro de 'conteudo'
 $aux_conteudo = str_replace('CIDX',$aux_cidx, $conteudo);
-//* volta aux_conteudo para conteudo, já finalizado
+//*  volta aux_conteudo para conteudo, já finalizado
 $conteudo = $aux_conteudo;
-//* 
+//*  troca toda aspas simples por acentuacao
+$conteudo = str_replace("'","´",$conteudo);
 
 $sql = "INSERT INTO $tb_relatorios (cod_user, cpf_titular, data_envio, cidx, conteudo)
-					VALUES (´$cod_user`,´$cpf_titular`,´$data_envio`,´$cidx`,´$conteudo`)";
+					VALUES ('$cod_user','$cpf_titular','$data_envio','$cidx','$conteudo')";
 
 //* executa e verifica resultado
 if ($conn_rel->query($sql) === TRUE) 
