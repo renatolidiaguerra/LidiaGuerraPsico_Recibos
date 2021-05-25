@@ -1,4 +1,4 @@
----
-deployment:
-  tasks:
-    - export DEPLOYPATH=/home/g6u03m67f7pm/public_html/recibos
+#---
+#deployment:
+#  tasks:
+#    - export DEPLOYPATH=/home/g6u03m67f7pm/public_html/recibos
