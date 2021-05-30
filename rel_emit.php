@@ -90,8 +90,8 @@ QRcode::png($qrcode, $fileQRCode , QR_ECLEVEL_L, 3);
 		text-align: center;
 	}
 	
+	<!-- 1a.linha: height: 55vmin; -->
 	#corpo {
-		height: 55vmin;
 		padding-top: 	 5%; 
 		padding-bottom:  0%; 
 		padding-left: 	 5%; 

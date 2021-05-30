@@ -40,6 +40,7 @@
 	     <th>ID RECIBO
 	</th><th>CPF TITULAR
 	</th><th>NOME TITULAR
+	</th><th>CPF DEPEND
 	</th><th>DATA ENVIO
 	</th><th>VALOR
 	</th><th>OBSERVAÇÃO
@@ -113,6 +114,8 @@
 					    . mask($row["cpf_titular"],'###.###.###-##') .     
 				"</td><td>"
 					    . $dado_tit['nome'] .  
+				"</td><td>"
+						. mask($row["cpf_dependente"],'###.###.###-##') .     
 				"</td><td>"
 					    . date_format(date_create($row['data_envio']),"d/m/Y") .
 				"</td><td>"
