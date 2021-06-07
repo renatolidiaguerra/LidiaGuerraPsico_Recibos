@@ -68,6 +68,8 @@ session_start();
 	else {
 		$data_extenso = strftime("%d de %B de %Y", strtotime($date));
 	}
+	
+	$ano_referencia = strftime("%Y", strtotime($date));
 
 //* formata variavel conteudo para corrigir quebras de linhas do paragrafo
 
@@ -184,7 +186,7 @@ $saidahtml = "
 				
 				<div id=\"relatorio\">RELATORIO</div>
 
-				<div id=\"ref\">ref: 2020/" . $dado_rel['id'] . "</div>				
+				<div id=\"ref\">ref: " . $ano_referencia . "/" . $dado_rel['id'] . "</div>				
 
 				<div id=\"corpo\">
 					

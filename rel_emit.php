@@ -45,6 +45,7 @@ if (strftime("%m", strtotime($date)) == 03) {
 else {
 	$data_extenso = strftime("%d de %B de %Y", strtotime($date));
 }
+$ano_referencia = strftime("%Y", strtotime($date));
 
 //* =============================================================
 
@@ -145,8 +146,8 @@ QRcode::png($qrcode, $fileQRCode , QR_ECLEVEL_L, 3);
 		<form id="fundo">
 				
 			<div id="relatorio">RELATORIO</div>
-
-			<div id="ref">ref: 2020/<?php echo $dado_rel['id']; ?></div>				
+			
+			<div id="ref">ref: "<?php echo $ano_referencia . '/' . $dado_rel['id']; ?></div>				
 
 			<div id="corpo">
 			
