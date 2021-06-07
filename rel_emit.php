@@ -147,7 +147,7 @@ QRcode::png($qrcode, $fileQRCode , QR_ECLEVEL_L, 3);
 				
 			<div id="relatorio">RELATORIO</div>
 			
-			<div id="ref">ref: "<?php echo $ano_referencia . '/' . $dado_rel['id']; ?></div>				
+			<div id="ref">ref: <?php echo $ano_referencia . '/' . $dado_rel['id']; ?></div>				
 
 			<div id="corpo">
 			
